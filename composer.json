@@ -1,5 +1,5 @@
 {
-	"name": "php-console/php-console",
+	"name": "adeotek/php-console",
 	"description": "PHP library for Google Chrome extension \"PHP Console\".",
 	"keywords": [
 		"PHP",

@@ -1,5 +1,5 @@
 {
-	"name": "php-console/php-console",
+	"name": "adeotek/php-console",
 	"description": "PHP library for Google Chrome extension \"PHP Console\".",
 	"keywords": [
 		"PHP",
@@ -9,7 +9,7 @@
 		"error handler",
 		"google chrome"
 	],
-	"homepage": "https://github.com/barbushin/php-console",
+	"homepage": "https://github.com/adeotek/php-console",
 	"license": "MIT",
 	"type": "library",
 	"authors": [
@@ -17,10 +17,14 @@
 			"name": "Sergey Barbushin",
 			"homepage": "http://linkedin.com/in/barbushin",
 			"email": "barbushin@gmail.com"
+		},
+		{
+			"name": "George Benjamin-Schonberger",
+			"email": "george.benjamin@gmail.com"
 		}
 	],
 	"support": {
-		"issues": "https://github.com/barbushin/php-console/issues"
+		"issues": "https://github.com/adeotek/php-console/issues"
 	},
 	"require": {
 		"php": ">=5.3.0"

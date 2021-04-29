@@ -9,7 +9,7 @@
 		"error handler",
 		"google chrome"
 	],
-	"homepage": "https://github.com/barbushin/php-console",
+	"homepage": "https://github.com/adeotek/php-console",
 	"license": "MIT",
 	"type": "library",
 	"authors": [
@@ -17,16 +17,20 @@
 			"name": "Sergey Barbushin",
 			"homepage": "http://linkedin.com/in/barbushin",
 			"email": "barbushin@gmail.com"
+		},
+		{
+			"name": "George Benjamin-Schonberger",
+			"email": "george.benjamin@gmail.com"
 		}
 	],
 	"support": {
-		"issues": "https://github.com/barbushin/php-console/issues"
+		"issues": "https://github.com/adeotek/php-console/issues"
 	},
 	"require": {
 		"php": ">=5.3.0"
 	},
 	"require-dev": {
-		"phpunit/phpunit": "^4.8",
+		"phpunit/phpunit": ">=4.8",
 		"ext-mbstring": "*",
 		"psr/log": "^1.0"
 	},

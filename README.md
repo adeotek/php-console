@@ -31,13 +31,13 @@ PHP Console allows you to handle PHP errors & exceptions, dump variables, execut
 
 	{
 		"require": {
-			"php-console/php-console": "^3.1"
+			"adeotek/php-console": "^3.2"
 		}
 	}
 
 Or
 
-	$ composer require php-console/php-console
+	$ composer require adeotek/php-console
 
 ### Monolog handler
 https://github.com/Seldaek/monolog/blob/master/src/Monolog/Handler/PHPConsoleHandler.php

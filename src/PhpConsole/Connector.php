@@ -98,7 +98,7 @@ class Connector {
 		$this->setServerEncoding(ini_get('mbstring.internal_encoding') ? : self::CLIENT_ENCODING);
 	}
 
-	private final function __clone() {
+	protected final function __clone() {
 	}
 
 	/**
@@ -374,7 +374,7 @@ class Connector {
 	 * @param null $key
 	 * @param array $args
 	 */
-	protected function convertWalkRecursiveItemEncoding(&$string, $key = null, array $args) {
+	protected function convertWalkRecursiveItemEncoding(&$string, $key = null, array $args = []) {
 		$this->convertEncoding($string, $args[0], $args[1]);
 	}
 
